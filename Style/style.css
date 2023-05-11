@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Righteous&family=Rubik:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    /* border: red 2px solid; */
+}
+body{
+    background-color:rgb(53, 53, 53);
+
+}
+.headerdiv{
+    margin: 0;
+}
+header{
+    background-image: url(../Assets/Bg/logan-meis-7qLT-Msda1k-unsplash.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position:left;
+height: 239px;
+
+}
+header h1{
+    font-family: 'Press Start 2P', cursive;
+    background: -webkit-linear-gradient(#dfc0d5, #429b97);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+header h4{
+    background: -webkit-linear-gradient(#8b5e5e, #dc3545);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Righteous', cursive;
+}
+
+nav div>a{
+    text-decoration: none;
+}
+.navbar-expand-lg .navbar-nav {
+    white-space: nowrap;
+}
+.content{
+    background: url(../Assets/Bg/lance-asper-pELKFdRXrO4-unsplash.jpg) no-repeat center fixed;
+    backdrop-filter: blur(5px); /* blur effect to the backdrop */
+    background-size: cover;
+}
+
+.footer{
+
+    webkit-box-shadow: 0px 1px 1px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px 1px 1px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px 1px 1px rgba(50, 50, 50, 0.75);
+    background-color: #b2c2bf;
+}
+li{
+list-style: none;
+    line-height: 33px;
+}
+.img1{
+    color: white;
+    background-color: white;
+}
+
+.sidebar h3{
+
+    font-family: 'Rubik', sans-serif;
+}
+
+.mainmenu, .block{
+    background-color: #020202;
+    opacity: 0.6;
+    color: white;
+    border-radius: 5px;
+    transition: all .2s ease-in-out; 
+}
+.block:hover{
+    transform: scale(1.1);
+}
+.mainmenu:hover{
+    transform: scale(1.1);
+}
+.gallery, .subscription,.otherservices{
+    background-color: #020202;
+    opacity: 0.7;
+    color: white;
+    border-radius: 5px;
+}
+a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: white;
+}
+
+nav ul>li>a{
+    color: white;
+}
+.mainmenu li>a{
+    color: white;
+}
+
+.carousel-inner{
+    
+    height: auto;
+}
+nav .btn{
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+form ,input,textarea{
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border: none;
+    
+}
+input{
+    color: white;
+}
+input::placeholder,textarea::placeholder{
+    color: white;
+}
+.subscription{
+    display: flex;
+    flex-direction: column;
+}
+.btn1{
+color: #8b5e5e;
+}
+/* background-color: rgba(196, 189, 189, 0.5);
+  -webkit-backdrop-filter: blur(5px); */
+  @media screen and (max-width: 2000px) {
+    .utility {
+      display: flex;
+    }
+  }
+  @media screen and (max-width: 992px) {
+    .sidebar {
+      display: flex;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .sidebar, .utility {
+      display:block
+    }
+    
+  }
